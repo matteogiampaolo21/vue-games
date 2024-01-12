@@ -14,6 +14,11 @@ const router = createRouter({
       name: 'colorguesser',
       component: () => import("../views/ColorGuessView.vue")
     },
+    {
+      path:'/connect-four',
+      name:'connectfour',
+      component: () => import("../views/ConnectFourView.vue")
+    },
     
   ]
 })

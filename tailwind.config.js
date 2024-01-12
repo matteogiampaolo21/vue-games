@@ -5,7 +5,8 @@ export default {
   theme: {
     extend: {
       spacing:{
-        '400':'400px'
+        '400':'400px',
+        '600':'600px',
       },
       colors: {
         'black-rgba': 'rgba(0, 0, 0, 0.54)',
